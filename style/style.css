@@ -1,0 +1,237 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    max-width: 1920px;
+    margin: 0;
+    background: #fff;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+    margin-left: 95px;
+}
+
+.list {
+    list-style: none;
+}
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 156px;
+}
+
+.menu {
+    display: flex;
+}
+
+.link-menu {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.7;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+}
+
+.link-menu:hover {
+    color: #FA4A0C;
+}
+
+.hero {
+    background: url(../img/hero-bg.jpg) center center/cover no-repeat;
+    min-height: 620px;
+    width: 100%;
+}
+
+.hero-app {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.1px;
+    color: #F7F7F7;
+    padding-top: 80px;
+}
+
+.hero-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.hero-descr {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #F7F7F7;
+}
+
+.hero-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    width: 236px;
+    height: 68px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    background: none;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-right: 65px;
+    margin-top: 55px;
+}
+
+.btn:hover,
+.btn:focus {
+    background: #FA4A0C;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border: none;
+}
+
+.app-works {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 0.8;
+    letter-spacing: 0.1px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 70px;
+}
+
+.first-app-works {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.step-1 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.step-2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 0.2px;
+    color: #252B42;
+    max-width: 561px;   
+}
+
+.step-3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+    color: #737373;
+    min-width: 467px;
+}
+
+.mob1-img {
+    margin-right: 287px;
+}
+
+.secondary-app-works {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 108px;
+}
+
+.order {
+    background: url(../img/order-bg.jpg) center center/cover no-repeat;
+    min-height: 516px;
+    margin-top: 190px;
+}
+
+.order-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-top: 141px;
+}
+
+.order-descr {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.order-store {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 331px;
+    height: 64px;
+    margin-right: 16px;
+}
+
+.order-link-store {
+    padding: 18px;
+    border: 1px solid #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.7;
+    letter-spacing: 0.2px;
+    color: #FFFFFF; 
+    text-decoration: none;
+    margin-top: 50px;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+
+.order-link-store:hover {
+    background: #FA4A0C;
+    border: none;
+}
+
+.copywright {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: right;
+    letter-spacing: 0.1px;
+    color: #5C5C5C;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 133px;
+    margin: 78px auto 27px;
+}
